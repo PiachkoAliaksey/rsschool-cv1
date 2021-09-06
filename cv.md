@@ -23,3 +23,31 @@ Graduated from the Belarusian National Technical University with a degree in pow
 Currently working as an automation engineer in the energy sector, I have in-depth knowledge in the field of communication equipment and its interaction with microprocessor industrial controllers.
 
 I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
+
+## Skills and Proficiency:
+---
+
+- HTML5, CSS3
+- Git, GitHub
+- JavaScript Basics (in progress)
+
+## Code example:
+
+
+
+
+## Courses:
+---
+
+- HTML and CSS Tutorials on the [w3schools](https://my-learning.w3schools.com/) (in progress)
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+- RS Schools [Course «JavaScript/Front-end. Stage 0»](https://github.com/piachkoaliaksey) (in progress)
+
+## Languages:
+---
+
+- English - Pre-Intermediate
+- Russian - Native
+- French - Intermediate
+
+
