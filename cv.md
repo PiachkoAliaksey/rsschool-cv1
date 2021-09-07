@@ -1,7 +1,7 @@
 # Aliaksei Piachko
 ---
 
-## Junior Frontend Developer
+## Future Junior Front-End Developer
 ---
 
 ## Contact information:
