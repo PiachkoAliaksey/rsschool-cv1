@@ -33,8 +33,31 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 
 ## Code example:
 
+Write a JavaScript program to find the largest of three given integers
 
+``` 
+function max_of_three(a, b, c) 
+ {
+  maximum = 0;
+  if (a > b)
+  {
+    maximum = a;
+  } else
+  {
+    maximum = b;
+  }
+  if (c > maximum) 
+  {
+    maximum = c;
+  }
+  return maximum;
+}
 
+console.log(max_of_three(10,20,5));
+console.log(max_of_three(0,-10,-50));
+console.log(max_of_three(100,1000,440));
+
+```
 
 ## Courses:
 ---
