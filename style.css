@@ -1,0 +1,288 @@
+/*Normalization*/
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+/*Global*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+body {
+  background-color: rgb(182, 182, 182);
+}
+
+
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left_side {
+  width: 30%;
+  background-color: #242424;
+  font-family: Montserrat;
+  color: #fff;
+}
+
+.container .left_side img {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.container .left_side .contacts {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.container .left_side .contacts__list {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.container .left_side .contacts a {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.container .left_side .contacts a:hover {
+  color: #fff;
+}
+
+.container .left_side .contacts__phone, .container .left_side .contacts__telegram, .container .left_side .contacts__e-mail {
+  position: relative;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.container .left_side .contacts__phone::before, .container .left_side .contacts__telegram::before, .container .left_side .contacts__e-mail::before {
+  content: '';
+  display: block;
+  height: 32px;
+  width: 5px;
+  position: absolute;
+  left: -70px;
+  top: -8px;
+  background-color: #ffffff;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.container .left_side .contacts__phone:hover::before, .container .left_side .contacts__telegram:hover::before, .container .left_side .contacts__e-mail:hover::before {
+  width: 60px;
+}
+
+
+.container .left_side .education {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.container .left_side .education__list {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.container .left_side .education__prof {
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px
+}
+
+
+.container .left_side .skills {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.container .left_side .skills__list {
+  list-style: none;
+  padding: 0;
+  color: #ffffff;
+  line-height: 35px;
+}
+
+.container .left_side .skills__list li {
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left center;
+}
+
+.container .left_side .about__languages {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.container .left_side .languages__list {
+  list-style: none;
+  padding: 0;
+  color: #ffffff;
+  line-height: 35px;
+}
+
+.container .left_side .languages__list li {
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left center;
+}
+
+
+.right_side {
+  width: 70%;
+  font-family: Montserrat;
+  color: #2d2d2d;
+  padding-top: 70px;
+  background-color: #fff;
+}
+
+                        
+.right_side .page_title {
+  width: 100%;
+  height: 200px;
+  padding: 65px 50px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.right_side .page_title .name_title {
+  font-size: 47px;
+  font-weight: 600;
+}
+
+.right_side .page_title .prof {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+ .main__list {
+  padding: 0px 60px;
+  
+}
+
+ .main__list .aboutme {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.main__list .aboutme__text {
+  text-align: justify  
+}
+
+.main__list .key_strengths {
+margin: 20px 0 20px 0;
+list-style: circle;
+}
+
+.main__list .key_strengths li {
+  margin-left: 60px;
+  padding: 0;
+  padding-left: 20px
+}
+
+
+.main__list .code_example {
+  width: 100%;
+  margin-bottom: 34px;
+  margin:20px 0 20px 0;  
+}
+
+.main__list .code_example code {
+  text-align: left; 
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 14px 
+}
+
+.footer {
+  width: 1000px;
+  margin: auto;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: #414141;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer__github {
+  position: relative;
+  padding:10px 0 0 40px;
+}
+
+.footer__github::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background-image: url("github-logo.svg");
+}
+
+.footer__rsschool {
+  justify-self: end;
+  height: 32px;
+}
+
+.footer__date {
+  justify-self: center;
+}
+
+.divider_blue {
+  display: block;
+  height: 2px;
+  background-color: #1100fe;
+  margin-bottom: 1em;
+}
+
+.divider_black {
+  display: block;
+  height: 2px;
+  background-color: #2d2d2d;
+  margin: 20px 0px;
+}
