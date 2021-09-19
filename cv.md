@@ -14,7 +14,7 @@
 ## Briefly About Myself:
 ---
 
-I am interested in web development because I have always wondered what a websiteis like, its ergonomics and user experience. I always wanted to change a certain block on the website that is out of place.
+I am interested in web development because I have always wondered what a websites like, its ergonomics and user experience. I always wanted to change a certain block on the website that is out of place.
 
 I am eager to thoroughly study a discipline that is new to me, relying on a huge amount of quality material on the Internet for self-training, as well as the course of the developer community. I am easy to learn and ready to learn new things, and then apply the new knowledge gained in practice, improving the quality of web sites.
 
